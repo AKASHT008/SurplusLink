@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies/build
+node_modules/
+dist/
+
+# Secrets and local data
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
